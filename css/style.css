@@ -1,11 +1,10 @@
 /*Global*/
-body {
-  background: black;
+.container {
+  padding-bottom: 50px;
 }
 
 /*navigation*/
 nav {
-  background-color: grey;
   padding: 10px;
 }
 
@@ -32,4 +31,67 @@ nav ul li a {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBRUE7RUFDRSxpQkFBQTtBQ0FGOztBREdBLGFBQUE7QUFFQTtFQUNFLHNCQUFBO0VBQ0EsYUFBQTtBQ0RGOztBRElBO0VBQ0UsZ0JBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTtFQUNBLGlCQUFBO0FDREY7O0FESUE7RUFDRSxxQkFBQTtFQUNBLGlCQUFBO0FDREY7O0FESUE7RUFDRSxjQUFBO0FDREY7O0FESUE7RUFDRSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0EscUJBQUE7QUNERiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* Header */
+.head-wrap {
+  height: 60vh;
+  position: relative;
+  background-image: url("https://media.istockphoto.com/id/537390684/pl/wektor/biuro-z-widok-z-okna-na-miasto-miejsce-pracy.jpg?s=612x612&w=0&k=20&c=J0tENDkozSrh8ponEyXHdZKb28k7Vz4-mfEEXnk1tEE=");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.head-iner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap-header {
+  padding-top: 80px;
+  text-align: center;
+}
+
+h2 {
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+/* About */
+.wrapper {
+  text-align: center;
+}
+
+h3 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h3 p {
+  color: grey;
+}
+
+.column-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.column {
+  margin: 0 20px;
+  text-align: center;
+}
+
+i {
+  font-size: 30px;
+  background: white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: blue;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBQ0E7RUFDRSxvQkFBQTtBQ0NGOztBREVBLGFBQUE7QUFFQTtFQUNFLGFBQUE7QUNBRjs7QURHQTtFQUNFLGdCQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7RUFDQSxpQkFBQTtBQ0FGOztBREdBO0VBQ0UscUJBQUE7RUFDQSxpQkFBQTtBQ0FGOztBREdBO0VBQ0UsY0FBQTtBQ0FGOztBREdBO0VBQ0UsY0FBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0FDQUY7O0FER0EsV0FBQTtBQUVBO0VBQ0UsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZ01BQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsNEJBQUE7QUNERjs7QURHQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUNBRjs7QURFQTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURFQTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtBQ0NGOztBREVBLFVBQUE7QUFFQTtFQUNFLGtCQUFBO0FDQUY7O0FER0E7RUFDRSxlQUFBO0VBQ0EsaUJBQUE7QUNBRjs7QURHQTtFQUNFLFdBQUE7QUNBRjs7QURHQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLGVBQUE7QUNBRjs7QURHQTtFQUNFLGNBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREdBO0VBQ0UsZUFBQTtFQUNBLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtBQ0FGIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
